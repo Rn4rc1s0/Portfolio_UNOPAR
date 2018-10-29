@@ -1,0 +1,70 @@
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+}
+#tabela {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 4px solid white;
+}
+
+#tabela td,{
+    border: 2px solid white;
+    padding: 8px;
+    text-align: center;
+}
+#tabela th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 4px solid white;
+}
+#tabela tr:nth-child(even){
+    background-color: pink;
+}
+#tabela tr:nth-child(odd) {
+    background-color: lawngreen;
+}
+#tabela h1{
+    padding-top: 2px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #008000;
+    color: white;
+}
+#ano{
+    color: #FFFF00;
+}
+#UF{
+    color: #FFFFFF;
+}
+#ntc{
+    color: #0000FF;
+}
+#vol{
+    color: #FFFFFF;
+}
+#repo{
+    color: #FF00FF;
+}
+#pay{
+    color: #000000;
+}
+#total{
+    color: #FFFFFF;
+    font-weight: 900, bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
